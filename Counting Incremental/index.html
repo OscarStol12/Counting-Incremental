@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <script src="break_eternity.js"></script>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body onload="loadData()">
+    <button id="upgrade1" onclick="buyUpgrade(player.upgrades.upg1,sh1)">Upgrade 1<h2 id="subheader-1">
+          Cost: 125
+      </h2> 
+      <h2 id="subheader-2">
+        Increase the increment counted by +3.
+      </h2>
+    </button>
+    <h1>Total Count:</h1>
+    <h1 id="count-nums">0</h1>
+    <button id="increment-btn" onclick="countUp()"> Count </button>
+    <button id="save-button" onclick="saveData()"> SAVE DATA </button>
+    <script src="main.js"></script>
+  </body>
+</html>
